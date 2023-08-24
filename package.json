@@ -1,6 +1,6 @@
 {
   "name": "@kav3/jwt",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "files": [
     "dist"
