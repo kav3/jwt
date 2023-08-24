@@ -1,4 +1,4 @@
-declare const Buffer: any
+// declare const Buffer: any
 import { createSign, createHmac, createVerify, randomBytes } from 'crypto'
 
 const algorithmMap: {

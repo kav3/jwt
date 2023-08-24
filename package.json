@@ -2,9 +2,15 @@
   "name": "@kav3/jwt",
   "version": "1.0.4",
   "description": "",
-  "main": "index.js",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/jwt",
+  "types": "dist/jwt.d.ts",
   "scripts": {
-    "build": "tsc",
+    "mjs": "tsc -d && mv dist/jwt.js dist/jwt.mjs",
+    "cjs": "tsc -m commonjs",
+    "build": "npm run mjs && npm run cjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
