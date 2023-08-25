@@ -4,6 +4,7 @@
 .nitro
 .cache
 dist
+*.tgz
 
 # Node dependencies
 node_modules
